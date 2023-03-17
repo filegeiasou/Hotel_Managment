@@ -17,8 +17,9 @@ int main()
 
 
 
-    Person mixalis("Mixalis", 40);
-    Person giannis("Giannis", 20);
+    Customer mixalis("Mixalis", 40 , "4/03/2023","8/03/2023","6985783274");
+    Customer giannis("Giannis", 20,"17/03/2023","19/03/2023","6932566358");
+    
 
 
     palace.getRoom(&mixalis);

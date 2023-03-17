@@ -34,7 +34,7 @@ void Hotel::printEmployees(ostream& out)
 	}
 }
 
-void Hotel::getRoom(Person * x)
+void Hotel::getRoom(Customer * x)
 {
 	if (numRooms > 0)
 	{

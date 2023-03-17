@@ -1,5 +1,6 @@
 #pragma once
 #include "Person.h"
+#include "Customer.h"
 class Employee:public Person
 {
 	private:

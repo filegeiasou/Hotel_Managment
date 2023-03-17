@@ -7,7 +7,7 @@ class Hotel
 		int numRooms;
 		string hotelName;
 		vector <Employee* > employees;
-		vector <Person* > persons;
+		vector <Customer* > persons;
 	public:
 		Hotel(int , string);
 		Hotel();
@@ -16,7 +16,7 @@ class Hotel
 		void operator +=(Employee*);
 		void printEmployees(ostream&);
 		void printCustomers(ostream&);
-		void getRoom(Person *);
+		void getRoom(Customer *);
 		void leaveRoom();
 		void setNumRooms(int);
 		int getNumRooms();
