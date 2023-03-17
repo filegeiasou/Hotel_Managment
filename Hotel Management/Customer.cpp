@@ -10,7 +10,7 @@ Customer::Customer(string name , int age , string time_a, string time_d, string 
 
 Customer::~Customer()
 {
-
+	cout << "Customer says Byeeee" << endl;
 }
 
 ostream& operator << (ostream& out, const Customer& d)

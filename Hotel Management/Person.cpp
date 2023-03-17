@@ -6,7 +6,7 @@ Person::Person()
 
 Person::~Person()
 {
-
+	cout << "Person says Byeeee" << endl;
 }
 
 Person::Person(string name, int age)
