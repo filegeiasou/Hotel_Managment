@@ -36,7 +36,7 @@ int main()
 
     palace.printCustomers(cout);
 
-    cout << "See you soon";
+    cout << "See you soon"<<endl;
 
     return 0;
 
