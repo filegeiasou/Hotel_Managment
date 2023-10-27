@@ -4,6 +4,7 @@ Hotel::Hotel(int numRooms, string hotelName)
 	this->numRooms = numRooms;
 	this->hotelName = hotelName;
 }
+//1
 
 Hotel::~Hotel()
 {
